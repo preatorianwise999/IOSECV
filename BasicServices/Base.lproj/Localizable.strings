@@ -1,0 +1,103 @@
+/* 
+  Localizable.strings
+  BasicServices
+
+  Created by Diego Cathalifaud on 8/28/15.
+  Copyright (c) 2015 Diego Cathalifaud. All rights reserved.
+*/
+
+// ALERTS
+
+"alert_title_error"             = "Error";
+"alert_msg_wrong_credentials"   = "Invalid credentials";
+"alert_msg_empty_credentials"   = "Username and password must not be empty";
+"alert_title_no_connection"     = "No internet";
+"alert_msg_first_time"          = "This is the first time you log in. You need internet connection";
+"alert_msg_need_connection_for_flights" = "You need internet connection to download this airport's flights";
+"alert_msg_need_connection_for_passengers" = "You need internet connection to download this flight's passenger list";
+"alert_msg_connection_error"    = "Connection Error";
+"alert_msg_sync_error"          = "Could not synchronize local data";
+"alert_msg_sync_warning"        = "Some data could not be synchronized";
+"alert_msg_printer_unknown"     = "Printer not supported";
+"alert_msg_printer_disconnected"= "No printer found";
+"alert_msg_printer_error"       = "Couldn't print vouchers";
+"alert_msg_print_data_error"    = "You need to select at least one service";
+"alert_msg_no_voucher_selected" = "You must select at least one passenger";
+"alert_msg_missing_document"    = "Please provide document information for all selected passengers";
+"alert_msg_missing_signature"   = "You must provide all required signatures";
+"alert_msg_no_connection"       = "You don't have internet connection";
+"alert_msg_cant_reach_server"   = "Couldn't connect to the server";
+"alert_msg_tv_error"            = "Failed to issue some Compensation Vouchers";
+"alert_msg_tv_need_internet"    = "You need internet connection to issue Compensation vouchers";
+"alert_msg_tv_will_fail"        = "You are not connected to internet. Compensation vouchers will not be issued";
+
+"alert_btn_cancel"              = "Cancel";
+"alert_btn_continue"            = "Continue";
+
+"alert_msg_take_voucher"        = "Take out the voucher before printing a new one";
+"alert_btn_print"               = "Print";
+
+"warning_connection"            = "Connection with the server failed. Some data might be outdated";
+"warning_sync"                  = "The application is now connected to the internet. You should synchronize";
+
+// ACTIVITY
+
+"activity_validating"           = "Validating...";
+"activity_retrieving_flights"   = "Downloading flights...";
+"activity_retrieving_passengers"= "Downloading passengers...";
+"activity_checking_hotels"      = "Checking hotel availability...";
+"activity_sync"                 = "Updating local data...";
+"activity_getting_doc_types"    = "Retrieving Document Types...";
+
+"activity_printer_connecting"   = "Connecting...";
+"activity_printer_sending_data" = "Sending graphic data...";
+"activity_printer_disconnecting"= "Printing...";
+
+// OTHER
+
+"locale"                        = "en";
+
+"login_username_placeholder"    = "Username";
+"login_password_placeholder"    = "Password";
+"flight_date_format"            = "EEEE, MMMM dd";
+"flight_placeholder_search"     = "Search Flights";
+"passenger_placeholder_search"  = "Search Passengers";
+"checkout_placeholder_no_info"  = "There are no vouchers associated to this PNR";
+"service_food_passenger_type"   = "Passenger type";
+"service_food_service_type"     = "Service type";
+"service_transport_provider"    = "Provider";
+"service_transport_type"        = "Transport type";
+"service_no_hotel"              = "No hotel";
+"service_protector_flight_title"= "Protector flight";
+"service_no_protector"          = "No protector";
+"service_LATAM_services_title"  = "LATAM services";
+"service_cash_title"            = "Cash";
+
+"confirmation_no_email"         = "No email available";
+
+// TRAVEL VOUCHER
+
+"compensation_pax_name"         = "PASSENGER NAME";
+"compensation_flight/date"      = "FLIGHT/DATE";
+"compensation_option_A"         = "1 - OPTION A";
+"compensation_option_A_desc"    = "REDEEMABLE ONLY FOR LATAM SERVICES";
+"compensation_option_B"         = "2 - OPTION B";
+"compensation_option_B_desc"    = "Money transfer in local currency";
+"compensation_amount"           = "AMOUNT";
+"compensation_option_C"         = "3 - OPTION C";
+
+"compensation_doc_details"      = "TYPE/ID Nº/COUNTRY";
+"compensation_protector/date"   = "PROTECTOR FLIGHT/DATE";
+"compensation_amount_text"      = "AMOUNT IN WRITING";
+"compensation_motive"           = "MOTIVE";
+"compensation_voluntary"        = "VOLUNTARY";
+
+"compensation_airport"          = "AIRPORT";
+"compensation_emission_date"    = "DATE OF ISSUE";
+"compensation_signature"        = "SIGN HERE";
+
+"compensation_legal_text"       = "Exchange terms and conditions:\\&IMPORTANT: The compensation received is accepted as final and therefore the passenger or their representatives exonerate, decline and freely renounce any complaints, claims and/or actions of any type against the Airline and anyone associated with it, its affiliates and/or the representatives, as a result of the foregoing compensation. The payment of this document is unique and total and any further expense incurred directly or indirectly with this compensation will be the passenger’s responsibility. The foregoing includes, without limitation, hotel expenses, boarding fees and taxes amongst others. In the case of a downgrade, the amount reflected here contemplates any rate difference as well as the compensation given.";
+"compensation_footer_text"      = "The passenger declares he/she has been informed of the terms and conditions related to exchange options. Complete list of these options available on latam.com, \"Information for your Trip.\" Valid for 12 months from the date of issue.";
+"compensation_pax_copy"         = "PASSENGER COPY";
+"compensation_airport_copy"     = "AIRPORT COPY";
+

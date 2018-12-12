@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Nombre"; ObjectID = "A9q-5i-DZc"; */
+"A9q-5i-DZc.text" = "Nombre";
+
+/* Class = "UILabel"; text = "Resumen Emisiones"; ObjectID = "EDF-Ri-6Qa"; */
+"EDF-Ri-6Qa.text" = "Resumo de emissoes";
+
+/* Class = "UILabel"; text = "codigo"; ObjectID = "nhc-cf-dgJ"; */
+"nhc-cf-dgJ.text" = "codigo";
+
+/* Class = "UIButton"; normalTitle = "Emitir Voucher"; ObjectID = "rgH-mN-ueG"; */
+"rgH-mN-ueG.normalTitle" = "Emitir Voucher";
+
+/* Class = "UILabel"; text = "LA600"; ObjectID = "xit-CA-kHL"; */
+"xit-CA-kHL.text" = "LA600";
+
+/* Class = "UILabel"; text = "There are no available services"; ObjectID = "PB2-CA-IRd"; */
+"PB2-CA-IRd.text" = "Não há serviços ativados para este voo";

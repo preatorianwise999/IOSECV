@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "APELLIDO1 APELLIDO2, NOMBRE"; ObjectID = "Jja-yV-dha"; */
+"Jja-yV-dha.text" = "APELLIDO1 APELLIDO2, NOMBRE";
+
+/* Class = "UILabel"; text = "Document Number"; ObjectID = "cxo-id-GJC"; */
+"cxo-id-GJC.text" = "Número de Documento";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "dVZ-j6-fmt"; */
+"dVZ-j6-fmt.normalTitle" = "Actualizar";
+
+/* Class = "UILabel"; text = "Document Type"; ObjectID = "gcB-SY-Veq"; */
+"gcB-SY-Veq.text" = "Tipo de Documento";
+
+/* Class = "UILabel"; text = "Document Country"; ObjectID = "hrf-iQ-qRP"; */
+"hrf-iQ-qRP.text" = "País de Documento";
+
+/* Class = "UILabel"; text = "Update Document"; ObjectID = "wEO-am-iqX"; */
+"wEO-am-iqX.text" = "Actualizar Documento";

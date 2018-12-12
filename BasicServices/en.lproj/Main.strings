@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "select airport"; ObjectID = "5IZ-Px-xBH"; */
+"5IZ-Px-xBH.text" = "selecciona aeropuerto";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "BRe-wP-VmD"; */
+"BRe-wP-VmD.normalTitle" = "Ingresar";
+
+/* Class = "UIButton"; normalTitle = "Select"; ObjectID = "XB5-sk-tcQ"; */
+"XB5-sk-tcQ.normalTitle" = "Elegir";
+
+/* Class = "UILabel"; text = "please log in"; ObjectID = "sup-sG-619"; */
+"sup-sG-619.text" = "ingresa tus credenciales";
+
+/* Class = "UILabel"; text = "Welcome,"; ObjectID = "tfq-NF-jW0"; */
+"tfq-NF-jW0.text" = "Bienvenido,";
+
+/* Class = "UILabel"; text = "Welcome,"; ObjectID = "uAO-VL-DJD"; */
+"uAO-VL-DJD.text" = "Bienvenido,";

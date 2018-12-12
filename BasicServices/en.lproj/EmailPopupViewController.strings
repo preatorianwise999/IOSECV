@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "HCg-sG-cyD"; */
+"HCg-sG-cyD.normalTitle" = "Actualizar";
+
+/* Class = "UILabel"; text = "email.address@host.com"; ObjectID = "JEX-hl-LEA"; */
+"JEX-hl-LEA.text" = "email.address@host.com";
+
+/* Class = "UILabel"; text = "APELLIDO1 APELLIDO2, NOMBRE"; ObjectID = "ScK-vt-d5E"; */
+"ScK-vt-d5E.text" = "APELLIDO1 APELLIDO2, NOMBRE";
+
+/* Class = "UILabel"; text = "Confirm new e-mail"; ObjectID = "qpe-cF-C9Y"; */
+"qpe-cF-C9Y.text" = "Confirmar email";
+
+/* Class = "UILabel"; text = "New e-mail address"; ObjectID = "xQg-i2-hmc"; */
+"xQg-i2-hmc.text" = "Nueva dirección de email";
+
+/* Class = "UILabel"; text = "Update Email"; ObjectID = "xku-YE-wF0"; */
+"xku-YE-wF0.text" = "Actualizar Email";

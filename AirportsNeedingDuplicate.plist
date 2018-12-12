@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>airports</key>
+	<array>
+		<string>AJU</string>
+		<string>BEL</string>
+		<string>BPS</string>
+		<string>BSB</string>
+		<string>BVB</string>
+		<string>CGB</string>
+		<string>CGH</string>
+		<string>CGR</string>
+		<string>CNF</string>
+		<string>CWB</string>
+		<string>FLN</string>
+		<string>FOR</string>
+		<string>GIG</string>
+		<string>GRU</string>
+		<string>GYN</string>
+		<string>IGU</string>
+		<string>IMP</string>
+		<string>IOS</string>
+		<string>JDO</string>
+		<string>JJG</string>
+		<string>JOI</string>
+		<string>JPA</string>
+		<string>JTC</string>
+		<string>LDB</string>
+		<string>MAB</string>
+		<string>MAO</string>
+		<string>MCP</string>
+		<string>MCZ</string>
+		<string>NAT</string>
+		<string>NVT</string>
+		<string>RAO</string>
+		<string>RBR</string>
+		<string>REC</string>
+		<string>SDU</string>
+		<string>SJK</string>
+		<string>SJP</string>
+		<string>SSA</string>
+		<string>STM</string>
+		<string>THE</string>
+		<string>UDI</string>
+		<string>VCP</string>
+		<string>VIX</string>
+		<string>SLZ</string>
+		<string>PMW</string>
+		<string>POA</string>
+		<string>PVH</string>
+	</array>
+</dict>
+</plist>

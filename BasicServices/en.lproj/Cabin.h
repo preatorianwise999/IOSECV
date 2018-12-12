@@ -1,0 +1,24 @@
+//
+//  Cabin.h
+//  BasicServices
+//
+//  Created by Diego Cathalifaud on 4/8/16.
+//  Copyright © 2016 Diego Cathalifaud. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+@class Flight, Passenger;
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface Cabin : NSManagedObject
+
+// Insert code here to declare functionality of your managed object subclass
+
+@end
+
+NS_ASSUME_NONNULL_END
+
+#import "Cabin+CoreDataProperties.h"

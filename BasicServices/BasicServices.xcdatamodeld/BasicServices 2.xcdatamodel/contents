@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="Airport" representedClassName="Airport" syncable="YES">
+        <attribute name="iataCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="airportFlights" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Flight" syncable="YES"/>
+    </entity>
+    <entity name="Cabin" representedClassName="Cabin" syncable="YES">
+        <attribute name="currentValue" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="flight" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Flight" inverseName="cabins" inverseEntity="Flight" syncable="YES"/>
+        <relationship name="passengers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Passenger" inverseName="cabin" inverseEntity="Passenger" syncable="YES"/>
+    </entity>
+    <entity name="Flight" representedClassName="Flight" syncable="YES">
+        <attribute name="airlineCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arrivalAirport" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contingencyCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contingencyDetails" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departureAirport" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departureDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="flightName" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flightNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="cabins" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Cabin" inverseName="flight" inverseEntity="Cabin" syncable="YES"/>
+        <relationship name="foodProviders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Provider" syncable="YES"/>
+        <relationship name="foodServices" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FoodService" inverseName="flight" inverseEntity="FoodService" syncable="YES"/>
+        <relationship name="hotelServices" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="HotelService" inverseName="flight" inverseEntity="HotelService" syncable="YES"/>
+        <relationship name="passengers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Passenger" inverseName="flight" inverseEntity="Passenger" syncable="YES"/>
+        <relationship name="travelServices" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TravelService" inverseName="flight" inverseEntity="TravelService" syncable="YES"/>
+    </entity>
+    <entity name="FoodService" representedClassName="FoodService" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="flight" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Flight" inverseName="foodServices" inverseEntity="Flight" syncable="YES"/>
+    </entity>
+    <entity name="HotelService" representedClassName="HotelService" syncable="YES">
+        <attribute name="roomAvailibility" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="roomTypeCode" optional="YES" attributeType="String" elementID="roomTypeCode" syncable="YES"/>
+        <attribute name="roomTypeDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="flight" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Flight" inverseName="hotelServices" inverseEntity="Flight" syncable="YES"/>
+        <relationship name="provider" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Provider" syncable="YES"/>
+    </entity>
+    <entity name="Passenger" representedClassName="Passenger" syncable="YES">
+        <attribute name="boardingNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="destination" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="documentNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="editCodes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="passengerID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pnr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ticketNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cabin" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Cabin" inverseName="passengers" inverseEntity="Cabin" syncable="YES"/>
+        <relationship name="flight" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Flight" inverseName="passengers" inverseEntity="Flight" syncable="YES"/>
+        <relationship name="vouchers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Voucher" inverseName="passenger" inverseEntity="Voucher" syncable="YES"/>
+    </entity>
+    <entity name="Provider" representedClassName="Provider" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="providerID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="TravelService" representedClassName="TravelService" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="flight" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Flight" inverseName="travelServices" inverseEntity="Flight" syncable="YES"/>
+        <relationship name="provider" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Provider" syncable="YES"/>
+    </entity>
+    <entity name="Voucher" representedClassName="Voucher" syncable="YES">
+        <attribute name="numberOfVouchers" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="serviceName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serviceType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeCode" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="passenger" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Passenger" inverseName="vouchers" inverseEntity="Passenger" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Airport" positionX="-488" positionY="9" width="128" height="90"/>
+        <element name="Cabin" positionX="-335" positionY="450" width="128" height="105"/>
+        <element name="Flight" positionX="-324" positionY="-0" width="128" height="270"/>
+        <element name="FoodService" positionX="-173" positionY="9" width="128" height="135"/>
+        <element name="HotelService" positionX="-65" positionY="222" width="128" height="120"/>
+        <element name="Passenger" positionX="-576" positionY="126" width="128" height="240"/>
+        <element name="Provider" positionX="-369" positionY="126" width="128" height="75"/>
+        <element name="TravelService" positionX="-207" positionY="378" width="128" height="105"/>
+        <element name="Voucher" positionX="-603" positionY="465" width="128" height="120"/>
+    </elements>
+</model>

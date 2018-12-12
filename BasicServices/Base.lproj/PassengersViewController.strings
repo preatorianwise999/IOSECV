@@ -1,0 +1,22 @@
+
+/* Class = "UIButton"; normalTitle = "ACOMPAÑANTES"; ObjectID = "4vj-2q-Sj4"; */
+"4vj-2q-Sj4.normalTitle" = "COMPANIONS";
+
+/* Class = "UIButton"; normalTitle = "SSBB"; ObjectID = "MSF-T0-vUW"; */
+"MSF-T0-vUW.normalTitle" = "PRINT";
+
+/* Class = "UITextField"; placeholder = "Buscar pasajero"; ObjectID = "No6-C3-xPx"; */
+"No6-C3-xPx.placeholder" = "Search Passengers";
+
+/* Class = "UILabel"; text = "LA600"; ObjectID = "ay5-Ho-t0C"; */
+"ay5-Ho-t0C.text" = "LA600";
+
+/* Class = "UILabel"; text = "PEREZ, JUAN"; ObjectID = "d6P-Ds-Dv0"; */
+"d6P-Ds-Dv0.text" = "PEREZ, JUAN";
+
+/* Class = "UILabel"; text = "VP-Child / QUERTY"; ObjectID = "mcy-jv-0LX"; */
+"mcy-jv-0LX.text" = "VP-Child / QUERTY";
+
+/* Class = "UILabel"; text = "There are no passengers to show"; ObjectID = "N0H-ml-lfV"; */
+"N0H-ml-lfV.text" = "There are no passengers to show";
+

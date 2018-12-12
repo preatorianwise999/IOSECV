@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 fa22c05b69a5f0691e93a5b0915eb380547cea51 Diego Cathalifaud <diegoc@uc.cl> 1438192936 -0300	commit (initial): Initial Commit
+fa22c05b69a5f0691e93a5b0915eb380547cea51 87d3fb4d92a10b301fe423509a59fdb97f6f887f Diego Cathalifaud <diegoc@uc.cl> 1449243788 -0300	commit: Full project until v1.40
+87d3fb4d92a10b301fe423509a59fdb97f6f887f 56e39ca9108469f02e17f0204e65dc9e9d5276f6 Diego Cathalifaud <diegoc@uc.cl> 1449408894 -0300	commit: added auto-logout
+56e39ca9108469f02e17f0204e65dc9e9d5276f6 bcd52de7406d148b9ed0051db15cacc78b80dcfa Diego Cathalifaud <diegoc@uc.cl> 1449767585 -0300	commit: fixed a crash in passengers table view
+bcd52de7406d148b9ed0051db15cacc78b80dcfa fe78c436a375231a7b42924394089cefebb0afd7 Diego Cathalifaud <diegoc@uc.cl> 1449841040 -0300	commit: 1.41 (63) published
+fe78c436a375231a7b42924394089cefebb0afd7 266648c2705011bfbfbcf71f67e0ea05c5774a6a Diego Cathalifaud <diegoc@uc.cl> 1449842446 -0300	commit: 1.41 (63) published
+266648c2705011bfbfbcf71f67e0ea05c5774a6a 056e0e5edf1739f5677f6c89ebe24de048688921 Diego <diegoc@uc.cl> 1463076303 -0300	commit: lots of changes to add ECV requirements
+056e0e5edf1739f5677f6c89ebe24de048688921 683940aa9edc27812608119d144221e58916f607 Diego <diegoc@uc.cl> 1463767460 -0300	commit: fixes
+683940aa9edc27812608119d144221e58916f607 a69a17757b6a564778df7fb79d4654201b83a3f5 Diego <diegoc@uc.cl> 1468419199 -0400	commit: lots of changes

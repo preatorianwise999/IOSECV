@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Sign here please"; ObjectID = "G1C-7e-Ldn"; */
+"G1C-7e-Ldn.text" = "Assine aqui";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "QLa-6e-Lvc"; */
+"QLa-6e-Lvc.normalTitle" = "Feito";
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "yh1-1Q-75H"; */
+"yh1-1Q-75H.normalTitle" = "Limpar";
